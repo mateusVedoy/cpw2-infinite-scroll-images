@@ -18,12 +18,6 @@ urlImgs = [
 ];
 
 window.addEventListener('load', () => {
-    // urlImgs.forEach(image => {
-    //     let img = document.createElement('img');
-    //     img.setAttribute('src', `${image}`);
-    //     img.setAttribute('class', 'randomImgs');
-    //     document.getElementsByTagName('body')[0].appendChild(img);
-    // });
 
     for (let i = 0; i < urlImgs.length; i++) {
         let img = document.createElement('img');
